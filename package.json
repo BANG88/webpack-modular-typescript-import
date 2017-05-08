@@ -1,0 +1,33 @@
+{
+  "name": "webpack-modular-typescript-import",
+  "version": "0.0.0",
+  "description": "modular-typescript-import for webpack",
+  "license": "MIT",
+  "repository": "bang88/webpack-modular-typescript-import",
+  "author": "bang <sqibang@gmail.com> github.com/bang88 ",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "cd test && npm test",
+    "lint": "tslint --project ./tsconfig.json --fix",
+    "start": "tsc -w",
+    "pretest": "tsc"
+  },
+  "typings": "index.d.ts",
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "modular-typescript-import": "^0.0.3",
+    "tslib": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "@types/webpack": "^2.2.15",
+    "ava": "^0.18.2",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}
