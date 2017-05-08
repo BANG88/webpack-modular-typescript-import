@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "webpack",
+    "test": "webpack webpack.config.js",
     "pretest": "yarn"
   },
   "devDependencies": {
