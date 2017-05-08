@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "webpack",
-    "pretest": "yarn"
+    "pretest": "yarn && yarn link webpack-modular-typescript-import"
   },
   "devDependencies": {
     "antd": "^2.10.0",

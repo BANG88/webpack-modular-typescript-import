@@ -12,7 +12,7 @@
     "test": "cd test && npm test",
     "lint": "tslint --project ./tsconfig.json --fix",
     "start": "tsc -w",
-    "pretest": "tsc"
+    "pretest": "tsc && yarn link"
   },
   "typings": "index.d.ts",
   "keywords": [
