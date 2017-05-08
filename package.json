@@ -1,6 +1,6 @@
 {
   "name": "webpack-modular-typescript-import",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "modular-typescript-import for webpack",
   "license": "MIT",
   "repository": "bang88/webpack-modular-typescript-import",
