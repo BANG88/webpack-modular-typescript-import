@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "webpack"
+    "test": "webpack",
+    "pretest": "yarn"
   },
   "devDependencies": {
     "antd": "^2.10.0",
